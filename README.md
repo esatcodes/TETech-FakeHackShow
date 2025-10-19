@@ -1,15 +1,27 @@
 # TETech FakeHackShow
 
-**Bu proje bir şaka / gösteri amaçlıdır.** Gerçek hack, kötü amaçlı yazılım veya yetkisiz erişim amaçlamaz. Amaç: sınıf sunumları veya eğlence için görsel "hacker intro" sunmaktır.
+**TETech FakeHackShow**, sınıf sunumları ve eğlenceli gösteriler için hazırlanmış zararsız bir "hacker-like" görsel demodur. Amacı: sahte terminal efektleri (matrix rain, typing, fake loglar, ilerleme çubuğu) ile sinematik bir sunum yapmaktır. **Gerçek saldırı, ağ taraması veya hesap ele geçirme içermez.**
 
-## Özellikler
-- Matrix rain, typing efekti, fake loglar
-- Büyük başlık: TETech Studios
-- Dokunmatik/fare ile kullanılabilir butonlar: GitHub Aç ve Çıkış
-- SPACE tuşu: GitHub Aç, ESC: Çıkış
+---
 
-## Kurulum
-Python 3.x ve pygame gereklidir:
+## Canlı demo / kısa açıklama
+Program tam ekran görsel gösteri sunar: solda *matrix rain*, sağda bir terminal paneli, ortada ihtişamlı **TETech Studios** başlığı (pulse + halo + partikül efektleri). Ekranın altında dokunmatik butonlarla **GitHub Aç** ve (gizli) çıkış mekanizması bulunur.
+
+---
+
+## Öne çıkan özellikler
+- Tam ekran (veya pencere) sinematik gösterim  
+- Matrix rain, typing efekti, fake loglar ve transfer çubuğu  
+- Büyük, parlayan ve partiküllü başlık: **TETech Studios**  
+- Dokunmatik dostu buton: **GitHub Aç**  
+- Gizli çıkış: sol-üst köşeye 3 kere hızlı dokunma veya 1.5s uzun basma  
+- SAFE: Hiçbir gerçek ağ/işlem/kimlik bilgisi kullanılmaz — sadece görseldir
+
+---
+
+## Nasıl kurulur (ön koşullar)
+- Python 3.7+ (tercih: 3.8 veya üstü)
+- `pygame` kütüphanesi
 
 ```bash
 pip install pygame
